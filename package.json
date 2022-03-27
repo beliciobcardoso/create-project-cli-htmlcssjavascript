@@ -1,0 +1,33 @@
+{
+  "name": "@belloinfo/create-project-cli-htmlcssjavascript",
+  "version": "1.0.0",
+  "description": "CLI to create a new project with html, css, javascript",
+  "main": "src/index.js",
+  "bin": {
+    "@belloinfo/create-project-cli-htmlcssjavascript": "bin/create-project-cli-htmlcssjavascript",
+    "create-project-cli-htmlcssjavascript": "bin/create-project-cli-htmlcssjavascript"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "create-project-cli-html",
+    "create-project-cli-css",
+    "create-project-cli-javascript",
+    "create-project-cli",
+    "create-project",
+    "create",
+    "cli",
+    "html",
+    "css",
+    "javascript"  
+  ],
+  "author": "Belicio Cardoso",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
