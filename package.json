@@ -24,12 +24,19 @@
     "cli",
     "html",
     "css",
-    "js",  
-    "javascript"  
+    "js",
+    "javascript"
   ],
   "author": "Belicio Cardoso",
   "license": "MIT",
   "dependencies": {
-    "esm": "^3.2.25"
-  }
+    "arg": "^5.0.1",
+    "esm": "^3.2.25",
+    "gitignore": "^0.7.0",
+    "inquirer": "^8.2.2"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ]
 }
